@@ -1,0 +1,336 @@
+    body{
+        background-color:pink;
+        margin:60px;
+        padding:0px;
+        background-image: url("backgroundimg.jpg");
+        background-attachment: scroll;
+
+        
+    }
+    *{
+        padding:0px;
+        margin:0px;
+    }
+    .header {
+        background: #fe33 url('headerr.JPG');
+        background-position: ;
+        background-size: 100%;
+        
+        width:100%;
+        height: 300px;
+        background-color: grey;
+        margin-bottom: 50px;
+    }
+    .main{
+        width:1000px;
+        height:600px;
+        background-color:green;
+        float:left;
+        background-image: url("header.JPG");
+        margin-bottom:50px;
+
+    }
+
+    .art1{
+        margin: 50px 100px; 
+        width:800px;
+        height:130px;
+        border: 2px solid black;
+        background-color:purple;
+        background-image: url("art1.JPG");
+
+    }
+
+
+
+    .art2{
+        margin: 50px 100px; 
+        width:800px;
+        height:130px;
+        border: 2px solid black;
+        background-color:purple;
+        background-image: url("art2.JPG");
+        
+    }
+    .art3{
+        margin: 50px 100px; 
+        width:800px;
+        height:130px;
+        border: 2px solid black;
+        background-color:purple;
+        background-image: url("art3.PNG");
+        
+    }
+
+    .art1 p, .art2 p, .art3 p,  .aside1, .aside2{
+        padding:20px;
+        font-size:16px;
+        color: black;
+        
+    }
+    .nav{
+        
+        float:right;
+        width:395px;
+        height:600px;
+        margin-bottom:50px;
+        background-image: url("nav.JPG");
+    }
+
+    .footer{
+        
+        float:left;
+        width: 100%;
+        height:200px;
+        margin-bottom:50px;
+        background-image: url("footer.PNG");
+    }
+
+    .footer p{
+        padding:20px;
+        font-size:16px;
+        color:rgb(219, 214, 214);
+        text-shadow: 9px 8px 8px black;
+       
+    }
+
+    .aside1{
+        float:left;
+        width:650px;
+        height:250px;
+        background-color: purple;
+        margin-right:50px;
+        margin-bottom:50px;
+        background-image: url("aside1.PNG");
+
+    }
+    .aside2{
+        float:right;
+        width:650px;
+        height:250px;
+        background-color: grey;
+        margin-bottom:50px;
+        background-image: url("aside2.PNG");
+
+    }
+ 
+
+    .headerout h1{
+        font: oblique normal 60px 'Century Gothic', serif;
+        text-transform: capitalize;   
+    }
+
+    .headerout {
+        
+        text-transform: capitalize;
+        padding: 140px 80px 0px 590px;
+        width:700px;
+        text-align:center;
+        
+        
+    }
+        
+    .headerh1:hover {
+        text-shadow: 5px 6px 8px grey;
+        
+    }
+    .header:hover {
+        border: 1px solid grey;
+        
+    }
+
+    .nav1:hover{
+    
+        border: 1px solid grey;
+    }
+
+    .nav li{
+        list-style-type:none;
+        font: normal bold 20px/25px verdana, sans serif ;
+        padding:25px;
+        text-align:center;
+        
+        
+        
+    }
+    .nav a{
+        text-transform: uppercase;
+        text-decoration:none;
+        color:black;
+        border:1px solid purple;
+        background-color:#ffe;
+        padding:6px;
+        border-radius:10px;
+        box-shadow: 5px 6px 8px green;
+    }
+
+
+    .main:hover, .art1:hover, .art2:hover, .art3:hover,  .nav:hover, .nav1 a:hover, .aside1:hover, .aside2:hover, .footer:hover {
+        border-top: 1px solid white;
+        box-shadow: 5px 5px 10px black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:680px){
+        body{
+            background-color:pink;
+            margin:10px;
+            padding:0px;
+            background-image: url("backgroundimg.jpg");
+            background-attachment: scroll;
+            background-size:auto;
+            
+        }
+
+        .header {
+            background: #fe33 url('headerr.JPG');
+            background-repeat:no-repeat ;
+            background-size: 100%;
+            
+            width:100%;
+            height: 90px;
+            background-color: grey;
+            margin-bottom: 20px;
+        }
+    
+        .headerout h1{
+            font: oblique normal 14px 'Century Gothic', serif;
+            text-transform: capitalize;   
+        }
+        .headerout {
+        
+            text-transform: capitalize;
+            padding: 50px 80px 0px 170px;
+            width:700px;
+            text-align:left;
+            
+            
+        }
+
+    .main{
+        float:left;
+        width:60%;
+        height:auto;
+        background-image: url("header.JPG");
+        margin-bottom:20px;
+
+    }
+
+  
+    .nav{
+        float:right;
+        width:30%;
+        height:600px;
+        margin-bottom:20px;
+        background-image: url("nav.JPG");
+        
+    }
+    .art1{
+        margin: 30px 25px; 
+        width:140px;
+        height:130px;
+        border: 2px solid black;
+        background-color:purple;
+        background-image: url("art1.JPG");
+    }
+    .art2{
+        margin: 30px 25px; 
+        width:140px;
+        height:170px;
+        border: 2px solid black;
+        background-color:purple;
+        background-image: url("art2.JPG");
+        font-size:12px;
+        
+    }
+    .art3{
+        margin: 30px 25px; 
+        width:140px;
+        height:170px;
+        border: 2px solid black;
+        background-color:purple;
+        background-image: url("art3.PNG");
+        
+    }
+    .art1 p,.art2 p,.art3 p{
+        font-size:8px;
+    }
+    .nav1:hover{
+        border: 1px solid grey;
+    }
+
+    .nav li{
+        list-style-type:none;
+        font: normal bold 10px verdana, sans serif ;
+        padding: 30px 0px;
+        text-align:center; 
+    }
+    .nav a{
+        text-transform: uppercase;
+        text-decoration:none;
+        color:black;
+        border:1px solid purple;
+        background-color:#ffe;
+        padding:6px;
+        border-radius:10px;
+        box-shadow: 5px 6px 8px green;
+    }
+    .footer{
+        float:left;
+        width: 100%;
+        height:200px;
+        margin-bottom:20px;
+        background-image: url("footer.PNG");
+    }
+    .footer p{
+        padding:20px;
+        font-size:9px;
+        color:rgb(219, 214, 214);
+        text-shadow: 9px 8px 8px black;
+       
+    }
+    
+    .aside1{
+        float:left;
+        width:30%;
+        height:auto;
+        background-color: purple;
+        margin-right:50px;
+        margin-bottom:50px;
+        background-image: url("aside1.PNG");
+
+    }
+    .aside2{
+        float:right;
+        width:30%;
+        height:auto;
+        background-color: grey;
+        margin-bottom:50px;
+        background-image: url("aside2.PNG");
+
+    }
+    .art1 p, .art2 p, .art3 p,  .aside1, .aside2{
+        padding:10px;
+        font-size:8px;
+        color: black;
+        
+    }
+    .aside1:after, .aside2:after{
+        display: table;
+    content:'';
+    clear:both;
+
+    }
+
+
+    }
+
