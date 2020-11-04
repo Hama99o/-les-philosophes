@@ -2,7 +2,7 @@
         background-color:pink;
         margin:60px;
         padding:0px;
-        background-image: url("backgroundimg.JPG");
+        background-image: url("backgroundimg.jpg");
         background-attachment: scroll;
 
         
@@ -12,7 +12,7 @@
         margin:0px;
     }
     .header {
-        background-image: url("headerr.JPG");
+        background-image: url("headerr.jpg");
         background-size: 100%;
         width:100%;
         height: 300px;
@@ -22,7 +22,7 @@
         width:1000px;
         height:600px;
         float:left;
-        background-image: url("header.JPG");
+        background-image: url("header.jpg");
         margin-bottom:50px;
 
     }
@@ -32,7 +32,7 @@
         width:800px;
         height:130px;
         border: 2px solid black;
-        background-image: url("art1.JPG");
+        background-image: url("art1.jpg");
 
     }
 
@@ -43,7 +43,7 @@
         width:800px;
         height:130px;
         border: 2px solid black;
-        background-image: url("art2.JPG");
+        background-image: url("art2.jpg");
         
     }
     .art3{
@@ -51,7 +51,7 @@
         width:800px;
         height:130px;
         border: 2px solid black;
-        background-image: url("art3.PNG");
+        background-image: url("art3.png");
         
     }
 
@@ -67,7 +67,7 @@
         width:395px;
         height:600px;
         margin-bottom:50px;
-        background-image: url("nav.JPG");
+        background-image: url("nav.jpg");
     }
 
     .footer{
@@ -76,7 +76,7 @@
         width: 100%;
         height:200px;
         margin-bottom:50px;
-        background-image: url("footer.PNG");
+        background-image: url("footer.png");
     }
 
     .footer p{
@@ -94,7 +94,7 @@
         background-color: purple;
         margin-right:50px;
         margin-bottom:50px;
-        background-image: url("aside1.PNG");
+        background-image: url("aside1.png");
 
     }
     .aside2{
@@ -103,7 +103,7 @@
         height:250px;
         background-color: grey;
         margin-bottom:50px;
-        background-image: url("aside2.PNG");
+        background-image: url("aside2.png");
 
     }
  
@@ -178,14 +178,14 @@
             background-color:pink;
             margin:10px;
             padding:0px;
-            background-image: url("backgroundimg.JPG");
+            background-image: url("backgroundimg.jpg");
             background-attachment: scroll;
             background-size:auto;
             
         }
 
         .header {
-            background-image: url("headerr.JPG");
+            background-image: url("headerr.jpg");
             background-repeat:no-repeat ;
             background-size: 100%;
            
@@ -213,7 +213,7 @@
         float:left;
         width:60%;
         height:auto;
-        background-image: url("header.JPG");
+        background-image: url("header.jpg");
         margin-bottom:20px;
 
     }
@@ -224,7 +224,7 @@
         width:30%;
         height:600px;
         margin-bottom:20px;
-        background-image: url("nav.JPG");
+        background-image: url("nav.jpg");
         
     }
     .art1{
@@ -233,7 +233,7 @@
         height:130px;
         border: 2px solid black;
         background-color:purple;
-        background-image: url("art1.JPG");
+        background-image: url("art1.jpg");
     }
     .art2{
         margin: 30px 25px; 
@@ -241,7 +241,7 @@
         height:170px;
         border: 2px solid black;
         background-color:purple;
-        background-image: url("art2.JPG");
+        background-image: url("art2.jpg");
         font-size:12px;
         
     }
@@ -251,7 +251,7 @@
         height:170px;
         border: 2px solid black;
         background-color:purple;
-        background-image: url("art3.PNG");
+        background-image: url("art3.png");
         
     }
     .art1 p,.art2 p,.art3 p{
@@ -282,7 +282,7 @@
         width: 100%;
         height:200px;
         margin-bottom:20px;
-        background-image: url("footer.PNG");
+        background-image: url("footer.png");
     }
     .footer p{
         padding:20px;
@@ -299,7 +299,7 @@
         background-color: purple;
         margin-right:50px;
         margin-bottom:50px;
-        background-image: url("aside1.PNG");
+        background-image: url("aside1.png");
 
     }
     .aside2{
@@ -308,7 +308,7 @@
         height:auto;
         background-color: grey;
         margin-bottom:50px;
-        background-image: url("aside2.PNG");
+        background-image: url("aside2.png");
 
     }
     .art1 p, .art2 p, .art3 p,  .aside1, .aside2{
